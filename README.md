@@ -1,0 +1,1 @@
+# reduk-component-jsd-file
