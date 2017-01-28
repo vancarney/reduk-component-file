@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/vancarney/reduk-component-file#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
     "loopback-component-storage": "^3.0.0",
     "loopback-datasource-juggler": "^3.2.0",
+    "schemaroller": "git+https://github.com/vancarney/schemaroller.git",
     "wf-utils": "git+https://github.com/Webfreshener/wf-utils.git"
   },
   "devDependencies": {

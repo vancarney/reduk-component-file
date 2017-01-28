@@ -1,12 +1,17 @@
 "use strict";
-import AbstractFileLoader from "../lib/AbstractFileLoader";
+import FileComponent from "../lib/FileComponent";
 
-describe("AbstractFileLoader Test Suite", ()=>{
+describe("FileComponent Test Suite", ()=>{
   const _files = "test string";
   const _root = global.APP_ROOT || process.env.PWD;
   const _file = "a_file.txt"
 
-  const _loader = new AbstractFileLoader("files", _root, _file);
+  const _loader = new FileComponent({
+      name: "files",
+      path: _root,
+      file: _file
+  });
+
   it("should get/set contents", () => {
     _loader.contents = _files;
     _loader.contents.should.eq(_files);
