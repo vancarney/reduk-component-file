@@ -1,0 +1,38 @@
+{
+  "name": "reduk-component-file",
+  "version": "1.0.0",
+  "description": "Loopback Connector for JSD Flat Files via Local or Cloud Storage ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vancarney/reduk-component-file.git"
+  },
+  "author": "Van Carney <carney.van@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vancarney/reduk-component-file/issues"
+  },
+  "homepage": "https://github.com/vancarney/reduk-component-file#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "loopback-component-storage": "^3.0.0",
+    "loopback-datasource-juggler": "^3.2.0",
+    "wf-utils": "git+https://github.com/Webfreshener/wf-utils.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-loopback": "^4.0.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0",
+    "nsp": "^2.1.0",
+    "supertest": "^2.0.1"
+  }
+}

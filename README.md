@@ -1,1 +1,1 @@
-# reduk-component-jsd-file
+# reduk-component-file
