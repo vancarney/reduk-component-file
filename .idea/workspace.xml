@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af541f0b-4170-462c-9adc-a66b54a9eb86" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/FileComponent.js" afterPath="$PROJECT_DIR$/src/FileComponent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/FileConnector.js" afterPath="$PROJECT_DIR$/src/FileConnector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/ds_config.jsd.json" afterPath="$PROJECT_DIR$/src/ds_config.jsd.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FileComponent.test.js" afterPath="$PROJECT_DIR$/test/FileComponent.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FileConnector.test.js" afterPath="$PROJECT_DIR$/test/FileConnector.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +23,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="60">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -308,12 +301,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485579864753</updated>
       <workItem from="1485579867096" duration="3500000" />
-      <workItem from="1485586704036" duration="8248000" />
+      <workItem from="1485586704036" duration="8382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11748000" />
+    <option name="totallyTimeSpent" value="11882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -525,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
