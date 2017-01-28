@@ -1,5 +1,5 @@
 "use strict";
-import FileConnector from "../lib/FileConnector";
+import FileConnector from "../src/FileConnector";
 
 describe("FileConnector Test Suite", ()=>{
   let _root = global.APP_ROOT || process.env.PWD;

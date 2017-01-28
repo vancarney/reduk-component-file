@@ -1,5 +1,5 @@
 "use strict";
-import FileComponent from "../lib/FileComponent";
+import FileComponent from "../src/FileComponent";
 
 describe("FileComponent Test Suite", ()=>{
   const _files = "test string";
