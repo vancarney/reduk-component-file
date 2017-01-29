@@ -1,6 +1,6 @@
 {
   "name": "reduk-component-file",
-  "version": "1.0.1-0",
+  "version": "1.0.2-0",
   "description": "Loopback Connector for JSD Flat Files via Local or Cloud Storage ",
   "main": "index.js",
   "scripts": {
