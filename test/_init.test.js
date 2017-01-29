@@ -12,15 +12,19 @@ global.APP_ROOT = __dirname;
 import * as index from "../index";
 
 describe("Initialization Test Suite", ()=> {
-    it("should have an initializer method", ()=>{
-        index.initialize.should.be.a.function;
-    });
-    it("should handle a connection", (done)=>{
-        index.initialize({
-            settings: {
-                name: "files",
-                path: global.APP_ROOT,
-                file: "a_file.txt",
-        }}, done);
-    });
+  it("should have exported the initialization method", ()=>{
+    index.initialize.should.be.a.function;
+  });
+  it("should handle a connection", (done)=>{
+    let _cb = (conn)=> {
+      conn.contents.should.eq("testing ... 123");
+      done();
+    }
+    index.initialize({
+      settings: {
+        name: "fixtures",
+        path: global.APP_ROOT,
+        file: "init_data.txt",
+    }}, _cb);
+  });
 });

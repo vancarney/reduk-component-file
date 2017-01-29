@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint ./src",
     "preversion": "npm test",
+    "postversion": "git commit origin master",
     "pretest": "npm run lint",
     "posttest": "npm run build",
     "prepublish": "npm test",
@@ -36,9 +37,7 @@
     "chai": "^3.5.0",
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
-    "gulp": "^3.9.1",
     "mocha": "^3.2.0",
-    "nsp": "^2.1.0",
-    "supertest": "^2.0.1"
+    "nsp": "^2.1.0"
   }
 }

@@ -69,14 +69,23 @@ class FileComponent {
 
   /**
    *
-   * @param callback
+   * @param cb
    * @returns {boolean}
    */
-  load(callback) {
+  load(cb) {
     return this.container.read(this.file, "utf8", (e, data)=> {
       this.contents = data || null;
-      callback(e, data);
+      cb(e, data);
     });
+  }
+
+  /**
+   *
+   * @param callback
+   */
+  unload(callback) {
+    this.contents = null;
+    callback();
   }
 
   /**
@@ -165,12 +174,13 @@ class FileComponent {
   }
 
   // - Loopback DS Methods
+
   /**
    *
    * @param cb
    */
   connect(cb) {
-    cb();
+    this.load((e)=> { cb(e || this); });
   }
 
   /**
@@ -178,7 +188,7 @@ class FileComponent {
    * @param cb
    */
   disconnect(cb) {
-    cb();
+    this.unload(cb);
   }
 }
 export default FileComponent;
