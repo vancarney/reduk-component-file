@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./src",
     "preversion": "npm test",
-    "postversion": "git commit origin master",
+    "postversion": "git commit",
     "pretest": "npm run lint",
     "posttest": "npm run build",
     "prepublish": "npm test",
