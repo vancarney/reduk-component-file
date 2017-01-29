@@ -1,1 +1,3 @@
-export * from "./lib";
+"use strict";
+var _ = require("./lib");
+exports.initialize = _.initialize;

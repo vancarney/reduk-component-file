@@ -4,8 +4,11 @@
   "description": "Loopback Connector for JSD Flat Files via Local or Cloud Storage ",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src",
     "preversion": "npm test",
+    "pretest": "npm run lint",
     "posttest": "npm run build",
+    "prepublish": "npm test",
     "build": "babel src -d lib ; cp src/*.json lib",
     "test": "mocha --compilers js:babel-core/register test/**/*.test.js"
   },
